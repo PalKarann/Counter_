@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 180px;
+  }
+  
+  .container {
+    background-color: #f4e2aa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 300px;
+    width: 450px;
+  }
+  
+  .counter {
+    margin: 20px 0;
+    display: flex;
+  }
+  
+  input[type="number"], [type="reset"] {
+    font-size: 2rem;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px 0  0 10px;
+  }
+  #reset{
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 2px 8px 8px 2px;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: center;
+    /* gap: -3%; */
+    flex-direction: column;
+    padding: 12px;
+    height: 197px;
+  }
+  
+  button.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    /* padding: 10px; */
+  }
+  
+  button.increment {
+    background-color: #4caf50;
+    /* display: block; */
+    margin: 10px;
+    width: 400px;
+  }
+  
+  button.decrement {
+    background-color: #616161;
+    /* display: block; */
+    margin: 10px;
+    width: 400px;
+  }
+  
+  
